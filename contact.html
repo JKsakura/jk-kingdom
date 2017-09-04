@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kingdom</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/fit-screen.css" type="text/css">
+      <meta charset="utf-8">
+    <!--
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=2">
+    -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav>
+            <a href="index.html"><div class="logo">J.K</div></a>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="character.html"><li>CHARACTER</li></a>
+                <a href="about.html"><li>FEATURE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </nav>
+        <div class="mobile_menu">
+            <ul>
+                <a href="index.html"><li>INDEX</li></a>
+                <a href="character.html"><li>CHARACTER</li></a>
+                <a href="about.html"><li>FEATURE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </div>
+        <div class="ham_menu"></div>
+        <div class="search_icon"></div>
+        <div class="searchBar" id="searchBar">
+            <form class="searchform" action="#"> 
+            <div class="searchPanel" id="searchPanel">
+                <ul>
+                    <li><input type="radio" name="searchRadio" value="Search ALL Fields" checked="checked"><label>Search ALL Fields</label></li>
+                    <li><input type="radio" name="searchRadio" value="Character"><label>Character</label></li>
+                    <li><input type="radio" name="searchRadio" value="Map"><label>Map</label></li>
+                    <li><input type="radio" name="searchRadio" value="Monster"><label>Monster</label></li>
+                    <li><input type="radio" name="searchRadio" value="Mission"><label>Mission</label></li>
+                    <li><input type="radio" name="searchRadio" value="Photo"><label>Photo</label></li>
+                    <li><input type="radio" name="searchRadio" value="Blog"><label>Blog</label></li>
+                    <li><input type="radio" name="searchRadio" value="Tutorial"><label>Tutorial</label></li>
+                </ul>
+                <div class="searchArrow" id="downArrow"><img src="http://jksakura.com/html5exercise/downarrow.png" width="15" height="10"></div>
+                <div class="searchArrow" id="upArrow"><img src="http://jksakura.com/html5exercise/uparrow.png" width="15" height="10"></div>
+            </div>
+            <input type="button" class="searchFlip" id="searchFlip">
+            <input type="search" id="searchField" value="Search" onfocus="searchFocus()" onblur="searchBlur()" class="searchfield"  required onkeypress="searchEnter(event)">        
+            <input type="button" value="GO" id="searchBtn" class="searchBtn">
+            </form>
+        </div>
+    </header>
+    <!-- Header End -->
+    <div class="container">
+        <!-- this is a title of the page -->
+        <h2 class="page_title" id="page_title">Keep in Touch</h2>
+        <div class="contact-form-wrapper">
+            <!-- Form -->
+            <form id="contact-form" method="post" name="myemailform" action="contact.php">
+                <div>
+                    <label>
+                        <span>Name: (required)</span>
+                        <input placeholder="Please enter your name" type="text" name="name" tabindex="1" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span>Email: (required)</span>
+                        <input placeholder="Please enter your email address" type="email" name="email" tabindex="2" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span>Message:</span>
+                        <textarea placeholder="Include all the details you can" name="message" tabindex="5"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <button name="submit" type="submit" id="contact-submit">Send Email</button>
+                </div>
+            </form>
+            <!-- /Form -->
+            </div>
+    </div>
+    <footer>
+            <div class="footer-topper">
+                <div class="link-menu">
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#" href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="social-menu">
+                	<ul>
+                    	<li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            	<div class="copyright">
+                	<p>Copyright 2015 <span>J.K</span></p>
+                </div>
+            </div>	
+    </footer>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kingdom</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/fit-screen.css" type="text/css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav>
+            <a href="index.html"><div class="logo">J.K</div></a>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="character.html"><li>CHARACTER</li></a>
+                <a href="about.html"><li>FEATURE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </nav>
+        <div class="mobile_menu">
+            <ul>
+                <a href="index.html"><li>INDEX</li></a>
+                <a href="character.html"><li>CHARACTER</li></a>
+                <a href="about.html"><li>FEATURE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </div>
+        <div class="ham_menu"></div>
+        <div class="search_icon"></div>
+        <div class="searchBar" id="searchBar">
+            <form class="searchform" action="#">
+            <div class="searchPanel" id="searchPanel">
+                <ul>
+                    <li><input type="radio" name="searchRadio" value="Search ALL Fields" checked="checked"><label>Search ALL Fields</label></li>
+                    <li><input type="radio" name="searchRadio" value="Character"><label>Character</label></li>
+                    <li><input type="radio" name="searchRadio" value="Map"><label>Map</label></li>
+                    <li><input type="radio" name="searchRadio" value="Monster"><label>Monster</label></li>
+                    <li><input type="radio" name="searchRadio" value="Mission"><label>Mission</label></li>
+                    <li><input type="radio" name="searchRadio" value="Photo"><label>Photo</label></li>
+                    <li><input type="radio" name="searchRadio" value="Blog"><label>Blog</label></li>
+                    <li><input type="radio" name="searchRadio" value="Tutorial"><label>Tutorial</label></li>
+                </ul>
+                <div class="searchArrow" id="downArrow"><img src="http://jksakura.com/html5exercise/downarrow.png" width="15" height="10"></div>
+                <div class="searchArrow" id="upArrow"><img src="http://jksakura.com/html5exercise/uparrow.png" width="15" height="10"></div>
+            </div>
+            <input type="button" class="searchFlip" id="searchFlip">
+            <input type="search" id="searchField" value="Search" onfocus="searchFocus()" onblur="searchBlur()" class="searchfield"  required onkeypress="searchEnter(event)">        
+            <input type="button" value="GO" id="searchBtn" class="searchBtn">
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <!-- this is a title of the page -->
+        <h2 class="page_title" id="page_title">NEW FEATURES</h2>
+        <div class="about_wrapper" id="about_wrapper">
+            <div class="about_map">
+                <h2 class="map_title">NEW MAPS</h2>
+                <div class="map_content">
+                        <div class="map_container">
+                            <img src="image/m1.jpg" class="map_container_imgB">
+                            <img src="image/m1.jpg" class="map_container_imgT">
+                            <div class="overlay">PREVIEW</div>
+                        </div>
+                        <div class="map_container">
+                            <img src="image/m2.jpg" class="map_container_imgB">
+                            <img src="image/m2.jpg" class="map_container_imgT">
+                            <div class="overlay">PREVIEW</div>
+                        </div>
+                        <div class="map_container">
+                            <img src="image/m3.jpg" class="map_container_imgB">
+                            <img src="image/m3.jpg" class="map_container_imgT">
+                            <div class="overlay">PREVIEW</div>
+                        </div>
+                        <div class="map_container">
+                            <img src="image/m4.jpg" class="map_container_imgB">
+                            <img src="image/m4.jpg" class="map_container_imgT">
+                            <div class="overlay">PREVIEW</div>
+                        </div>
+                        <div class="map_container">
+                            <img src="image/m5.jpg" class="map_container_imgB">
+                            <img src="image/m5.jpg" class="map_container_imgT">
+                            <div class="overlay">PREVIEW</div>
+                        </div>
+                        <div class="map_container" style="background:#00a1e8;">VIEW MORE
+                            
+                            <div class="overlay"></div>
+                        </div>
+                </div>
+            </div>
+            <h2 class="monster_title">NEW MONSTERS</h2>
+            <div class="about_monster">
+                <div class="monster_container">
+                    <img src="image/mo1.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo2.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo3.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo4.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo5.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo6.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo7.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container">
+                    <img src="image/mo8.png" class="monster_container_imgB">
+                    <div class="overlay"></div>
+                </div>
+                <div class="monster_container" style="background:#00a1e8;">
+                    <div class="overlay">VIEW MORE</div>
+                </div>
+            </div>
+            <h2 class="item_title">NEW ITEMS</h2>
+            <div class="about_item">
+                <div class="item_container"><img src="image/i1.jpg"></div>
+                <div class="item_container"><img src="image/i2.jpg"></div>
+                <div class="item_container"><img src="image/i3.jpg"></div>
+                <div class="item_container"><img src="image/i4.jpg"></div>
+                <div class="item_container"><img src="image/i5.jpg"></div>
+                <div class="item_container"><img src="image/i6.jpg"></div>
+                <div class="item_container"><img src="image/i7.jpg"></div>
+                <div class="item_container"><img src="image/i11.jpg"></div>
+                <div class="item_container"><img src="image/i12.jpg"></div>
+                <div class="item_container"><img src="image/i8.jpg"></div>
+                <div class="item_container"><img src="image/i9.jpg"></div>
+                <div class="item_container"><img src="image/i10.jpg"></div>
+            </div>
+        </div>
+        <div class="back_top-container">
+            <div class="back_top" id="back_top"><img src="http://1.bp.blogspot.com/-kNaEH7wSbrY/U_pAwNgPnzI/AAAAAAAAAMM/_bInt3Kx2jk/s1600/zxTgkLXiA.png" width="50px" height="50px" id="back_top_img"><h2>Back to Top</h2></div>
+        </div>
+    </div>
+    <!-- Header End -->    
+    <footer>
+            <div class="footer-topper">
+                <div class="link-menu">
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#" href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                        <div class="home-link-border"></div>
+                        <div class="home-link">
+                            <div class="home-link-title">LINK</div>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#">PROJECT</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="social-menu">
+                	<ul>
+                    	<li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            	<div class="copyright">
+                	<p>Copyright 2015 <span>J.K</span></p>
+                </div>
+            </div>	
+    </footer>
+</body>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</html>
